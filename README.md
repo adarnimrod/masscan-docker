@@ -1,6 +1,7 @@
 # masscan
 
 [![pipeline status](https://git.shore.co.il/nimrod/masscan-docker/badges/master/pipeline.svg)](https://git.shore.co.il/nimrod/masscan-docker/-/commits/master)
+[![Docker Hub downloads](https://img.shields.io/docker/pulls/adarnimrod/masscan?logo=docker)](https://hub.docker.com/r/adarnimrod/masscan)
 
 A dockerized [masscan](https://github.com/robertdavidgraham/masscan/).
 
