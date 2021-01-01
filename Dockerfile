@@ -1,4 +1,4 @@
-FROM buildpack-deps:stretch-scm as build
+FROM buildpack-deps:buster-scm as build
 ARG VERSION=1.0.5
 ENV DEBIAN_FRONTEND noninteractive
 # hadolint ignore=DL3008,DL3015
@@ -11,7 +11,7 @@ RUN apt-get update && \
     git clone https://github.com/robertdavidgraham/masscan.git --branch ${VERSION} && \
     make -jC masscan
 
-FROM debian:stretch-slim
+FROM debian:buster-slim
 ARG VERSION=1.0.5
 LABEL MASSCAN_VERSION=${VERSION}
 # hadolint ignore=DL3008
