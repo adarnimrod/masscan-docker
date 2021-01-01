@@ -1,5 +1,7 @@
 # masscan
 
+[![pipeline status](https://git.shore.co.il/nimrod/masscan-docker/badges/master/pipeline.svg)](https://git.shore.co.il/nimrod/masscan-docker/-/commits/master)
+
 A dockerized [masscan](https://github.com/robertdavidgraham/masscan/).
 
 ## Usage
